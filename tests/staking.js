@@ -19,6 +19,7 @@ describe.only("Test counter", () => {
   });
 });
 
+console.log("Hello");
 describe("Staking ", () => {
   // Configure the client to use the local cluster.
   anchor.setProvider(anchor.Provider.env());
